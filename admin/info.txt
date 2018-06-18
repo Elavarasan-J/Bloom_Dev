@@ -1,0 +1,14 @@
+admin
+=====
+admin@example.com
+codeinsect
+
+Manager
+======
+manager@example.com
+codeinsect
+
+Employee
+========
+employee@example.com
+codeinsect

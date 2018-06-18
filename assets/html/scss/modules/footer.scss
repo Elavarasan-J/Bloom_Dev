@@ -1,0 +1,165 @@
+/** Footer **/
+.footer{
+	background-color: #0f0d0d;
+	padding: 30px 0;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.3px;
+}
+.footer-top{
+	padding-bottom: 35px;
+	border-bottom: 1px solid #6f6e6e;
+}
+.footer-logo{
+	margin-bottom: 35px;
+	>img{
+		width: 185px;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+.footer-title{
+	color: $main-color;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 20px;
+	font-size: 12px;
+	margin: 0 0 15px;
+	letter-spacing: 0.5px;
+}
+.footer-contact{
+	margin-bottom: 28px;
+	.footer-title{
+		margin-bottom: 5px;
+	}
+}
+.hours-list{
+	list-style: none;
+	margin: -1px 0 12px;
+	>li{
+		padding: 1px 0;
+		>span{
+			min-width: 100px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}
+
+.footer-col{
+	color: #e6e6e6;
+}
+.text-highlighted{
+	color: $main-color;
+}
+.footer-list{
+	list-style: none;
+	>li{
+		padding: 2px 0;
+		>a{
+			color: #fff;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}
+.social-list{
+	list-style: none;
+	margin: 0 -8px;
+	font-size: 0;
+	>li{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 8px;
+		>a{
+			color: #ccaf94;
+			text-decoration: none !important;
+			display: block;
+			box-shadow: 0;
+			border-radius: 2px;
+			@include all-transition;
+			border-radius: 6px;
+			&:hover{
+				box-shadow: 0 0px 25px rgba(255,255,255,0.4);
+			}
+			svg{
+				vertical-align: middle;
+				&.fill{
+					@include all-transition;
+					stroke-width:0;
+					fill:#ccaf94;
+				}
+			}
+		}
+	}
+}
+.footer-bottom{
+	padding-top: 30px;
+	color: #6f6e6e;
+}
+.copyright{
+	text-transform: uppercase;
+	margin: 0;
+	text-align: right;
+}
+.copyright,.footer-bottom-links{
+	padding: 5px 0;
+}
+.footer-bottom-links{
+	margin: 0 -8px;
+	>a{
+		color: #6f6e6e;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 8px;
+	}
+}
+.app-download-section{
+	background-color: #f0eae2;
+	padding: 35px 0;
+}
+.app-download-inner{
+	position: relative;
+	padding-right: 430px;
+}
+.app-download-content{
+	>h4{
+		line-height: 27px;
+		font-weight: 700;
+		margin: 0 0 10px;
+	}
+	>p{
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 0;
+		letter-spacing: 0.1px;
+		font-weight: 500;
+	}
+}
+.app-download-action{
+	position: absolute;
+    right: 0;
+    top: 50%;
+    margin: -28px -5px 0;
+    z-index: 5;
+	>a{
+		display: block;
+		width: 191px;
+		float: left;
+		height: 62px;
+		background: url('../images/app-logos.png')no-repeat;
+		margin: 0 5px;
+		&.android-app{
+			background-position: 0 0;
+		}
+		&.ios-app{
+			background-position: 0 -65px;
+		}
+	}
+}
+#footer-map{
+	height: 250px;
+	margin-right: 35px;
+}
